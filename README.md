@@ -30,4 +30,3 @@ DatingApp
 │     └─ staticwebassets.pack.sentinel
 └─ DatingApp.sln
 
-```
