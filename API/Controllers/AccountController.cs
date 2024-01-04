@@ -4,7 +4,6 @@ using API.Controllers;
 using API.Data;
 using API.DTOs;
 using API.Entities;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
