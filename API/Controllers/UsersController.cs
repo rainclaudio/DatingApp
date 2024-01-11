@@ -1,20 +1,23 @@
 using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Controllers;
+namespace API.Controllers{
 
 
+
+
+[Authorize]
 public class UsersController : BaseApiController
 {
     private readonly DataContext _context;
-
     public UsersController(DataContext context)
     {
         _context = context;
     }
-
+    [AllowAnonymous]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
     {
@@ -22,6 +25,7 @@ public class UsersController : BaseApiController
 
       return  users;
     }
+
 
     [HttpGet("{id}")] // /api/users/2
     /*handle user id that is not in the list*/
@@ -31,5 +35,7 @@ public class UsersController : BaseApiController
     }
 
 
+
+}
 
 }
