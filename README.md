@@ -2,8 +2,8 @@
 
 ## Contents
 
-1. [Introduction](#introduction) 
-   1.1. [Project Overview](#project-overview) 
+1. [Introduction](#introduction) <br>
+   1.1. [Project Overview](#project-overview) <br>
    1.2. [Technology Stack](#technology-stack) <br>
 
 2. [Getting Started](#getting-started) <br>
@@ -25,44 +25,31 @@
 7. [Contribution](#contribution) <br>
 8. [License](#license)
 
-## Introduction
-### Project Overview
-### Technology Stack
-:::mermaid
-requirementDiagram
-    requirement development_req {
-    id: 1
-    text: requirements spec.
-    risk: medium
-    verifymethod: test
-    }
-    element test_suite {
-    type: manual test
-    }
-    test_suite - verifies -> development_req
-:::
+## 1. Introduction
+### 1.1 Project Overview
+### 1.2 Technology Stack
 
-## Getting Started
-### Prerequisites
-### Installation Guide
-### Initial Setup and Configuration
+## 2. Getting Started
+### 2.1 Prerequisites
+### 2.2 Installation Guide
+### 2.3 Initial Setup and Configuration
 
-## Basic Usage
-### Running the Application
-### Basic Operations and Examples
+## 3. Basic Usage
+### 3.1 Running the Application
+### 3.2 Basic Operations and Examples
 
-## Authentication and Security
-### Authentication Methods
-### Security Features and Best Practices
+## 4. Authentication and Security
+### 4.1 Authentication Methods
+### 4.2 Security Features and Best Practices
 
-## Advanced Features
-### Detailed Guide on Advanced Modules
-### Customization and Extensions
+## 5. Advanced Features
+### 5.1 Detailed Guide on Advanced Modules
+### 5.2 Customization and Extensions
 
-## Error Handling
-### Common Issues and Solutions
-### Logging and Diagnostics
+## 6. Error Handling
+### 6.1 Common Issues and Solutions
+### 6.2 Logging and Diagnostics
 
-## Contribution
+## 7. Contribution
 
-## License
+## 8. License
