@@ -2,8 +2,8 @@
 
 ## Contents
 
-1. [Introduction](#introduction) <br>
-   1.1. [Project Overview](#project-overview) <br>
+1. [Introduction](#introduction) 
+   1.1. [Project Overview](#project-overview) 
    1.2. [Technology Stack](#technology-stack) <br>
 
 2. [Getting Started](#getting-started) <br>
