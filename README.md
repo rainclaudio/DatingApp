@@ -28,6 +28,19 @@
 ## Introduction
 ### Project Overview
 ### Technology Stack
+:::mermaid
+requirementDiagram
+    requirement development_req {
+    id: 1
+    text: requirements spec.
+    risk: medium
+    verifymethod: test
+    }
+    element test_suite {
+    type: manual test
+    }
+    test_suite - verifies -> development_req
+:::
 
 ## Getting Started
 ### Prerequisites
