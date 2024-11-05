@@ -1,4 +1,15 @@
-# .NET Project LAB API - SoftServe Bootcamp
+# .NET - REACT FullStack APP
+
+This is a fullstack app with the purpose of learning and practice important topics about .NET and React.js, involving:
+
+.NET:
+1. Entity Framework Core
+2. ASP.NET MVC
+3. Authentication and Authorization
+
+React.js:
+1. Profesional Project Struturing
+2. MobX
 
 ## Contents
 
